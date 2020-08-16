@@ -5,8 +5,8 @@ const User = require('../models/user');
 
 // tell passport to use a new strategy for google login
 passport.use(new googleStrategy(
-              {clientID: '633155390554-pchkc41rjdn0164fmn85mc4mfdhsk4jd.apps.googleusercontent.com', 
-           clientSecret: 'sLgpX4PgVdI3gRL0kLR1bolu',
+              {clientID: 'cleint id', 
+           clientSecret: 'client secret',
             callbackURL: "http://localhost:8000/users/auth/google/callback1"
             },function(accessToken, refreshToken, profile, done){
                   // find a user
