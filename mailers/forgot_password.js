@@ -4,7 +4,7 @@ const nodeMailer = require('../config/nodemailer');     //(Sending Our First Ema
 exports.newPassword = (user,req,token) => {
                        
     nodeMailer.transporter.sendMail({
-               from: 'jitenderjaiswal686@gmail.com',
+               from: 'your email',
                  to: user.email,
             subject: "Reset password!",
                html: `<a href="http://${req.headers.host}/users/update/${token}">Reset Password Link</a>`   
