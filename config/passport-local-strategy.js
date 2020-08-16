@@ -11,11 +11,6 @@ passport.use(new LocalStrategy({usernameField: 'email'},function(email, password
                 console.log('Error in finding user --> Passport');
                 return done(err);
             }
-
-           /* if (!user || user.password != password){
-                console.log('Invalid Username/Password');
-                return done(null, false,{message:'Email is not registered'});
-            }*/
             //Password is match
             bcrypt.compare(password,user.password, function(err, res) {
                 if(err) throw err;
