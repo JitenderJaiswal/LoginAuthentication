@@ -1,11 +1,11 @@
 # Login Authentication
 
 ## Run
-localhost:8000 .__
+localhost:8000 ._
 
 ## Intro
-Login Authentication website using Nodejs,Ejs,MongoDB and Javascript .__
-Authentication system which can be used as a starter code for creating any new application .__
+Login Authentication website using Nodejs,Ejs,MongoDB and Javascript ._
+Authentication system which can be used as a starter code for creating any new application ._
 
 ## 1.SignUp with Captcha
 User can create their Account by __
