@@ -3,7 +3,7 @@ const nodeMailer = require('../config/nodemailer');     //(Sending Our First Ema
 // this is another way of exporting a method
 exports.updatePassword = (user) => {
     nodeMailer.transporter.sendMail({
-               from: 'jitenderjaiswal686@gmail.com',
+               from: 'your email',
                  to: user.email,
             subject: "Reset password!",
                html: `<h1>Password Update Successfully</h1>`   
