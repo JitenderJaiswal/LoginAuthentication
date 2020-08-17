@@ -35,7 +35,7 @@ User can LogOut their Account.<br/>
 ## 4.Forgot Password and Password Update
 If User Forgot their Password then they can Update their Password by sending a Token link on their Email which expires after 10 min .<br/>
 After click on the link user can update their password by adding new password and confirm password fields .<br/>
-After this user will get a notifaction of Password Update .<br/>
+After this user will get a notification of Password Update .<br/>
 
 
 #### For sending Email i use         ==>NodeMailer. <br/>
