@@ -78,7 +78,7 @@ module.exports.create=async function(req,res){
         }
        
         // Verify URL
-        const query = stringify({ secret: '6Lfwmr8ZAAAAAAO-zhQspHCtk35VYQp4b4ebJl5h', // Secret key
+        const query = stringify({ secret: 'secretkey', // Secret key
                                 response:captcha,
                                 remoteip: req.connection.remoteAddress
                                });
